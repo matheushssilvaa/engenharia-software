@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .carousel {
+            position: relative;
+            max-width: 1200px;
+            margin: auto;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            display: block;
+        }
+
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+
+        .carousel-button.prev {
+            left: 10px;
+        }
+
+        .carousel-button.next {
+            right: 10px;
+        }
+    </style>
+    <title>Turismo</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Menu</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <img style="width: 100%; padding: 15px;" src="./img/logo png preta.png" alt="">
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
+                                <h4>Início</h4>
+                            </a>
+                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
+                                <h4>Pontos Turísticos</h4>
+                            </a>
+
+                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
+                                <h4>Acomodações</h4>
+                            </a>
+
+                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
+                                <h4>Refeitório e Piscina</h4>
+                            </a>
+
+                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
+                                <h4>Área Recreativa</h4>
+                            </a>
+
+                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
+                                <h4>Pacotes Promocionais</h4>
+                            </a>
+
+                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
+                                <h4>Fale Conosco</h4>
+                            </a>
+                        </ul>
+                        <!--
+                    <ul class="nav navbar-nav navbar-right">    
+                        <li><a class="navbar-brand" href="cadastrar.html"><span class="glyphicon glyphicon-user" style="padding-top: 10px;"></span> Cadastre-se</a></li>
+                        <li><a class="navbar-brand" href="login.html"><span class="glyphicon glyphicon-log-in" style="padding-top: 10px;"></span> Login</a></li>    
+                    </ul>
+                    -->
+                    </div>
+                </div>
+            </nav>
+            <button class="btn-whatsapp"><i class="fa-brands fa-whatsapp" id="wp"></i>Whatsapp</button>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            CONTEÚDO DA PÁGINA HOME
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="container-logo-footer">
+                <img src="./img/logo png branca.png" alt="logo-footer" class="logo-footer" />
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Quem Somos</h2>
+                    <p class="description-footer">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                        has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                        the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
+                        cites of the word in classical literature, discovered the undoubtable source.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Menu</h2>
+                    <p>Pontos Turísticos</p>
+                    <p>Acomodações</p>
+                    <p>Refeitório e Piscina</p>
+                    <p>Área Recreativa</p>
+                    <p>Pacotes Promocionais</p>
+                    <p>Fale Conosco</p>
+                    <p>Quem somos</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Endereço</h2>
+                    <p>Localidade: Gramado - RS</p>
+                    <p>Telefone: (XX) XXXXX-XXXX</p>
+                    <p>Email: contato@turistica.com.br</p>
+                    <h3>Newletter</h3>
+                    <input type="email" name="email" id="newsletter" placeholder="Seu email aqui..." />
+                    <input type="submit" value="Enviar" id="submit-newsletter" />
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

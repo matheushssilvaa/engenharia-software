@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -70,72 +70,46 @@
 
 <body>
     <header class="header">
-        <div class="container-fluid">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Menu</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <img style="width: 100%; padding: 15px;" src="./img/logo png preta.png" alt="">
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                                <h4>Início</h4>
-                            </a>
-                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                                <h4>Pontos Turísticos</h4>
-                            </a>
-
-                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                                <h4>Acomodações</h4>
-                            </a>
-
-                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                                <h4>Refeitório e Piscina</h4>
-                            </a>
-
-                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                                <h4>Área Recreativa</h4>
-                            </a>
-
-                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                                <h4>Pacotes Promocionais</h4>
-                            </a>
-
-                            <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                                <h4>Fale Conosco</h4>
-                            </a>
-                        </ul>
-                        <!--
-                    <ul class="nav navbar-nav navbar-right">    
-                        <li><a class="navbar-brand" href="cadastrar.html"><span class="glyphicon glyphicon-user" style="padding-top: 10px;"></span> Cadastre-se</a></li>
-                        <li><a class="navbar-brand" href="login.html"><span class="glyphicon glyphicon-log-in" style="padding-top: 10px;"></span> Login</a></li>    
-                    </ul>
-                    -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <img src="./img/logo png preta.png" id="logo" alt="logo" />
+                <div class="navbar-header">
+                    <button type="button" id="btn-mobile" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Início</a></li>
+                        <li><a href="#">Pontos Turísticos</a></li>
+                        <li><a href="#">Acomodações</a></li>
+                        <li><a href="#">Refeitório e Piscina</a></li>
+                        <li><a href="#">Área Recriativa</a></li>
+                        <li><a href="#">Pacotes Promocionais</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                    </ul>
+                    <div class="sociais">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-solid fa-map-pin"></i>
                     </div>
                 </div>
-            </nav>
-            <button class="btn-whatsapp"><i class="fa-brands fa-whatsapp" id="wp"></i>Whatsapp</button>
-        </div>
+            </div>
+        </nav>
     </header>
+
     <section>
-        <div class="container">
+        <div class="container-xl">
             CONTEÚDO DA PÁGINA HOME
         </div>
 
     </section>
     <footer class="footer">
         <div class="container">
-            <div class="container-logo-footer">
-                <img src="./img/logo png branca.png" alt="logo-footer" class="logo-footer" />
-            </div>
+            <img src="./img/logo png branca.png" class="logo-footer" alt="logo-footer" />
             <div class="row">
                 <div class="col-md-4">
                     <h2>Quem Somos</h2>
@@ -163,9 +137,15 @@
                     <h3>Newletter</h3>
                     <input type="email" name="email" id="newsletter" placeholder="Seu email aqui..." />
                     <input type="submit" value="Enviar" id="submit-newsletter" />
+                    <div class="sociais-footer">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-solid fa-map-pin"></i>
+                    </div>
                 </div>
             </div>
-
+            <span>© Turistica - todos os direitos reservados 2024</span>
         </div>
     </footer>
     <script src="./script/script.js"></script>

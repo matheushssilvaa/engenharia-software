@@ -1,0 +1,274 @@
+:root {
+    --bg-default: #f3f3f3cc;
+    --primary-color: rgb(0, 113, 158);
+    --accent-primary-color: rgb(0, 169, 236);
+    --secundary-color: rgb(248, 150, 2);
+    --accent-secundary-color: rgb(245, 188, 3);
+    --text-color: #0c0c0c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--bg-default);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+h2,
+.h3-bootstrap {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.p-bootstrap {
+    font-size: 20px;
+}
+
+.item {
+    background-color: black;
+}
+
+.item>img {
+    opacity: 0.5;
+}
+
+.h3-bootstrap {
+    font-size: 45px;
+}
+
+.p-bootstrap {
+    font-size: 20px;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+nav.navbar.navbar-inverse {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .carousel-caption {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+    }
+
+}
+
+.two-section {
+    display: flex;
+}
+
+.content-title-about {
+    display: block;
+    padding: 15px 0px 0px 50px;
+}
+
+.content-img-about {
+    display: flex;
+}
+
+.flex-destaques {
+    text-align: center;
+}
+
+.content-img-about>img {
+    width: 40%;
+}
+
+.imagens-acomocacoes {
+    width: 350px;
+    height: 450px;
+    margin: 5px;
+    background: #fff;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 0) 0%, rgb(6, 6, 6) 100%);
+}
+
+.imagens-acomocacoes>img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+}
+
+.acomodacoes {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-images-acomodacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-card-acomodacoes>img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.content-servicos-lazer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.content-servicos-lazer>img {
+    width: 50%;
+}
+
+.servicos-lazer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text-servicos-lazer {
+    padding: 0px 0px 0px 30px;
+    width: 50%;
+    text-align: left;
+}
+
+.text-servicos-lazer-two {
+    padding: 0 30px 0px 0px;
+    width: 50%;
+    text-align: right;
+}
+
+.content-imagem-pontos-turisticos-prontos {
+    width: 300px;
+    height: 300px;
+}
+
+.content-imagem-pontos-turisticos-prontos>img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pontos-turisticos-proximos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.galeria-imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pontos-turisticos-proximos {
+    margin-top: 100px;
+}
+
+.content-galeria-imagens {
+    height: 450px;
+    margin: 5px;
+}
+
+.content-galeria-imagens>img {
+    width: 337px;
+    height: 450px;
+    object-fit: cover;
+}
+
+#button-btn {
+    padding: 20px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: 0;
+}
+
+#button-btn:hover {
+    padding: 20px;
+    color: #fff;
+    background-color: var(--accent-primary-color);
+}
+
+#button-btn-white {
+    padding: 20px;
+    color: #000;
+    background-color: var(--bg-default);
+    border: 0;
+}
+
+img, .img-avatar {
+    width: 15%;
+}
+
+.card-comentario {
+    padding: 20px;
+    background-color: #dbdbdb;
+    margin: 5px;
+}
+
+img#mt-img {
+    margin-top: -140px;
+    padding: 5px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.col-md-3 {
+    background-color: white;
+    margin: 5px;
+    padding: 19px;
+    border-radius: 15px;
+}
+
+h5 {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content-testemunhos {
+    margin-top: 30px;
+}

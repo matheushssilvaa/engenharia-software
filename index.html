@@ -68,7 +68,7 @@
     </header>
 
     <section class="main">
-        <div style="margin: 0; top: 0;">
+        <div style="margin: 0; top: 0;" id="container-carousel-bt">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -79,9 +79,8 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-
                     <div class="item active">
-                        <img src="./img/banner1.jpg" alt="banner01" style="width:100%;">
+                        <img src="./img/banner1.jpg" class="img-responsive" alt="banner01" style="width:100%;">
                         <div class="carousel-caption">
                             <h3 class="h3-bootstrap">Descubra a Magia de Gramado</h3>
                             <p class="p-bootstrap">Bem-vindo a Gramado, um dos destinos mais encantadores do Brasil!
@@ -150,82 +149,84 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <h5 style="margin-top: 100px;">Quem somos</h5>
-            <h3 style="text-align: center; margin-bottom: 20px;">Destaques</h3>
-            <div class="flex-destaques">
-                <div class="row">
-                    <div class="col-md-3" id="icons">
-                        <i class="fa-solid fa-bed"></i>
-                        <h3 style="font-size: 20px;">Dormitórios</h3>
+            <div class="content-color">
+                <h5 style="margin-top: 50px;">Quem somos</h5>
+                <h3 style="text-align: center;">Destaques</h3>
+                <div class="flex-destaques">
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-md-3" id="icons">
+                            <i class="fa-solid fa-bed"></i>
+                            <h3 style="font-size: 20px;">Dormitórios</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-swimmer"></i>
+                            <h3 style="font-size: 20px;">Piscinas aquecidas</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-child"></i>
+                            <h3 style="font-size: 20px;">Área Recreativa Infantil</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-paw"></i>
+                            <h3 style="font-size: 20px;">Hospedagem Pet</h3>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <i class="fas fa-swimmer"></i>
-                        <h3 style="font-size: 20px;">Piscinas aquecidas</h3>
-                    </div>
-                    <div class="col-md-3">
-                        <i class="fas fa-child"></i>
-                        <h3 style="font-size: 20px;">Área Recreativa Infantil</h3>
-                    </div>
-                    <div class="col-md-3">
-                        <i class="fas fa-paw"></i>
-                        <h3 style="font-size: 20px;">Hospedagem Pet</h3>
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 20px;">
-                    <div class="col-md-3">
-                        <i class="fas fa-users"></i>
-                        <h3 style="font-size: 20px;">Salão de Eventos</h3>
-                    </div>
-                    <div class="col-md-3">
-                        <i class="fas fa-utensils"></i>
-                        <h3 style="font-size: 20px;">Refeitório temático</h3>
-                    </div>
-                    <div class="col-md-3">
-                        <i class="fas fa-car"></i>
-                        <h3 style="font-size: 20px;">Estacionamento</h3>
-                    </div>
-                    <div class="col-md-3">
-                        <i class="fas fa-door-open"></i>
-                        <h3 style="font-size: 20px;">Suites</h3>
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-3">
+                            <i class="fas fa-users"></i>
+                            <h3 style="font-size: 20px;">Salão de Eventos</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-utensils"></i>
+                            <h3 style="font-size: 20px;">Refeitório temático</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-car"></i>
+                            <h3 style="font-size: 20px;">Estacionamento</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-door-open"></i>
+                            <h3 style="font-size: 20px;">Suites</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
 
         <div class="acomodacoes">
             <div class="container">
-                <h5 style="margin-top: 100px;">Acomodações</h5>
+                <h5 style="margin-top: 50px;">Acomodações</h5>
                 <h3>Acomodações em meio a Natureza</h3>
                 <p class="p-bootstrap">Com arquitetura inspirada no estilo europeu de Gramado, nossas acomodações
                     oferecem conforto em meio
                     à natureza, com opções ideais para casais, famílias e grupos.</p>
                 <div class="flex-images-acomodacoes">
                     <div class="imagens-acomocacoes">
-                        <img src="./img/banner1.jpg" alt="1mg01" />
-                        <button type="button" class="btn btn-default" ; style="margin-top: 30px;"">Saiba mais</button>
+                        <img src="./img/acomodacoes/ChaleEx.jpg" alt="1mg01" id="flex-img-acomodacoes" />
+                        <button type="button" class="btn btn-primary" id="btn-imagens-acommodacoes">Saiba mais</button>
                     </div>
                     <div class=" imagens-acomocacoes">
-                            <img src="./img/banner1.jpg" alt="1mg01" />
-                            <button type="button" class="btn btn-default" style="margin-top: 30px;">Saiba mais</button>
+                            <img src="./img/acomodacoes/DormitorioLx.png" alt="1mg01" id="flex-img-acomodacoes" />
+                            <button type="button" class="btn btn-primary" >Saiba mais</button>
                     </div>
                     <div class="imagens-acomocacoes">
-                        <img src="./img/banner1.jpg" alt="1mg01" />
-                        <button type="button" class="btn btn-default" style="margin-top: 30px;">Saiba mais</button>
+                        <img src="./img/acomodacoes/DormitorioPr.png" alt="1mg01" id="flex-img-acomodacoes" />
+                        <button type="button" class="btn btn-primary" aria-colcount="padding: 30px">Saiba mais</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="acomodacoes" style="margin-top: 100px;">
+        <div class="acomodacoes" style="margin-top: 0px;">
             <div class="container">
-                <h5 style="margin-top: 100px;">Quem somos</h5>
+                <h5 style="margin-top: 120px;">Pacotes Promocionais</h5>
                 <h2>Experiências Personalizadas para Você</h2>
                 <p class="p-bootstrap">Aproveite nossos pacotes criados especialmente para você vivenciar o melhor da
                     Serra Gaúcha.</p>
                 <div class="flex-acomodacoes">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="card-acomodacoes">
                             <div class="img-card-acomodacoes">
                                 <img src="./img/banner3.jpg" alt="img-card-acomodacoes" />
                             </div>
@@ -233,7 +234,7 @@
                             <p>Aproveite longas estadias com tudo incluso, ideal para quem deseja se desconectar.</p>
                             <button type="button" class="btn btn-primary">Saiba mais</button>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="card-acomodacoes">
                             <div class="img-card-acomodacoes">
                                 <img src="./img/banner3.jpg" alt="img-card-acomodacoes" />
                             </div>
@@ -241,7 +242,7 @@
                             <p>Relaxe nos finais de semana com alimentação e atividades inclusas.</p>
                             <button type="button" class="btn btn-primary">Saiba mais</button>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="card-acomodacoes">
                             <div class="img-card-acomodacoes">
                                 <img src="./img/banner3.jpg" alt="img-card-acomodacoes" />
                             </div>
@@ -250,8 +251,8 @@
                             <button type="button" class="btn btn-primary">Saiba mais</button>
                         </div>
                     </div>
-                    <div class="row" style="margin-top: 50px;">
-                        <div class="col-md-4">
+                    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="col-md-4" id="card-acomodacoes">
                             <div class="img-card-acomodacoes">
                                 <img src="./img/banner3.jpg" alt="img-card-acomodacoes" />
                             </div>
@@ -259,15 +260,15 @@
                             <p>Escolha os dias e serviços que melhor se encaixam na sua agenda.</p>
                             <button type="button" class="btn btn-primary">Saiba mais</button>
                         </div>
-                        <div class="col-md-4">
-                            <div class="img-card-acomodacoes">
+                        <div class="col-md-4" id="card-acomodacoes">
+                            <div class="img-card-acomodacoes" id="card-acomodacoes">
                                 <img src="./img/banner3.jpg" alt="img-card-acomodacoes" />
                             </div>
-                            <h3>Pacotes para Grupos e Empresas</h3>
+                            <h3>Opções Corporativas</h3>
                             <p>Organize eventos corporativos ou encontros de família em um ambiente acolhedor.</p>
                             <button type="button" class="btn btn-primary">Saiba mais</button>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="card-acomodacoes">
                             <div class="img-card-acomodacoes">
                                 <img src="./img/banner3.jpg" alt="img-card-acomodacoes" />
                             </div>
@@ -281,11 +282,11 @@
         </div>
 
         <div class="servicos-lazer">
-            <h5>Quem somos</h5>
+            <h5>Serviços e Lazer</h5>
             <h2>Diversão e Conforto no Coração da Serra</h2>
             <div class="container">
                 <div class="content-servicos-lazer">
-                    <img src="./img/banner3.jpg" alt="img01" />
+                    <img src="./img/banner3.jpg" alt="img01" id="shadow" />
                     <div class="text-servicos-lazer">
                         <h2>Piscinas naturais e aquecidas com vista para as montanhas</h2>
                         <p>Desfrute de momentos relaxantes em nossas piscinas naturais e aquecidas, todas com uma
@@ -303,7 +304,7 @@
                     <img src="./img/banner3.jpg" alt="img01" id="mt-img" />
                 </div>
                 <div class="content-servicos-lazer">
-                    <img src="./img/banner3.jpg" alt="img01" />
+                    <img src="./img/banner3.jpg" alt="img01" id="shadow" />
                     <div class="text-servicos-lazer">
                         <h2>Área recreativa infantil com atividades ao ar livre</h2>
                         <p>As crianças têm seu espaço garantido na estância! Nossa área recreativa infantil conta com
@@ -321,7 +322,7 @@
                     <img src="./img/banner3.jpg" alt="img01" id="mt-img" />
                 </div>
                 <div class="content-servicos-lazer">
-                    <img src="./img/banner3.jpg" alt="img01" />
+                    <img src="./img/banner3.jpg" alt="img01" id="shadow" />
                     <div class="text-servicos-lazer">
                         <h2>Salão para Eventos e Convenções</h2>
                         <p>Com infraestrutura completa, nosso salão de eventos é ideal para convenções, encontros
@@ -332,7 +333,7 @@
             </div>
         </div>
 
-        <h2 style="text-align: center; margin-top: 100px;">Galeria de imagens</h2>
+        <h2 style="text-align: center; margin-top: 50px;">Galeria de imagens</h2>
         <div class="galeria-imagens">
 
             <div class="content-galeria-imagens">
@@ -351,7 +352,7 @@
 
         <div class="pontos-turisticos-proximos">
             <div class="container">
-
+                <h5>Pontos Turísticos</h5>
                 <h2>Explore as Belezas de Gramado e Região</h2>
                 <p class="p-bootstrap">Aproveite sua estadia para visitar os famosos pontos turísticos da Serra Gaúcha,
                     localizados próximos
@@ -360,28 +361,28 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="content-imagem-pontos-turisticos-prontos">
-                                <img src="./img/banner1.jpg" alt="img01" />
+                                <img src="./img/lago negro.png" alt="img01" />
                             </div>
                             <h3>Lago Negro</h3>
                             <p>Desfrute de passeios tranquilos de pedalinho no lago cercado de araucárias.</p>
                         </div>
                         <div class="col-md-4">
                             <div class="content-imagem-pontos-turisticos-prontos">
-                                <img src="./img/banner1.jpg" alt="img01" />
+                                <img src="./img/mini mundo.jpg" alt="img01" />
                             </div>
                             <h3>Mini Mundo</h3>
                             <p>Um parque em miniatura que encanta crianças e adultos.</p>
                         </div>
                         <div class="col-md-4">
                             <div class="content-imagem-pontos-turisticos-prontos">
-                                <img src="./img/banner1.jpg" alt="img01" />
+                                <img src="./img/rua coberta.jpeg" alt="img01" />
                             </div>
                             <h3>Rua Coberta</h3>
                             <p>Aproveite a gastronomia e o charme do centro de Gramado.</p>
                         </div>
                         <div class="col-md-4">
                             <div class="content-imagem-pontos-turisticos-prontos">
-                                <img src="./img/banner1.jpg" alt="img01" />
+                                <img src="./img/parque caracol.jpeg" alt="img01" />
                             </div>
                             <h3>Parque do Caracol</h3>
                             <p>Um refúgio natural com cachoeiras e trilhas deslumbrantes.</p>
@@ -476,7 +477,6 @@
         </div>
     </footer>
     <script src="./script/script.js"></script>
-
 </body>
 
 </html>

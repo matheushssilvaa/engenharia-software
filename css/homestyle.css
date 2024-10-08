@@ -213,6 +213,19 @@ nav.navbar.navbar-inverse {
         padding: 10px !important;
         text-align: center;
     }
+
+    .carousel-inner .item img {
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        color: white;
+    }
     
 }
 
@@ -390,6 +403,44 @@ img,
     border: 1px solid #00000034;
 }
 
+div.cta-final {
+    position: relative; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+div.cta-final::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/img/gramado_rs.webp");
+    background-size: cover;
+    opacity: 0.5; 
+    z-index: 1; 
+}
+
+div.cta-final > * {
+    position: relative; 
+    z-index: 2;
+}
+
+.h2-galeria-imagens {
+    margin-top: 100px;
+}
+
+.container-cta-final {
+    padding: 20px;
+    background-color: #00719ed3;
+    border-radius: 15px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 img#mt-img {
     margin-top: -140px;
     padding: 5px;
@@ -443,4 +494,8 @@ h5 {
 .content-color {
     background-color: #acacac23;
     padding-bottom: 50px;
+}
+
+.mt-auto {
+    margin-top: 20px;
 }
